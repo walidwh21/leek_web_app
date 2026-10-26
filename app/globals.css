@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f9fafb;
+  --foreground: #111827;
+  --leek-dark: #064e3b;
+  --leek-mid: #065f46;
+  --leek-light: #047857;
+  --cta-yellow: #facc15;
+}
+
+body {
+  color: var(--foreground);
+  background-color: var(--background);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .surface-card {
+    @apply rounded-2xl border border-gray-200/90 bg-white shadow-md shadow-leek-950/5;
+  }
+
+  .gradient-leek-header {
+    background: linear-gradient(135deg, #064e3b 0%, #065f46 55%, #047857 100%);
+  }
+}
