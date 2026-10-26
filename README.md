@@ -28,8 +28,8 @@ It shares one Supabase project with the other LEEK apps:
 | App | Purpose |
 |---|---|
 | **leek_app** (this repo) | Customers browse, order, and track deliveries |
-| [leek_admin](https://github.com/<your-username>/leek_admin) | Store team manages catalogue, stock, and order status |
-| [leek_website](https://github.com/<your-username>/leek_website) | Marketing landing page |
+| [leek_admin](https://github.com/walidwh21/leek_admin) | Store team manages catalogue, stock, and order status |
+| [leek_website](https://github.com/walidwh21/leek_website) | Marketing landing page |
 
 ---
 
